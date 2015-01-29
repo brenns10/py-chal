@@ -5,6 +5,10 @@ Start: http://www.pythonchallenge.com/pc/def/ocr.html
 Hint: recognize the characters. maybe they are in the book, but MAYBE they are
 in the page source.
 
+The title suggests Optical Character Recognition, but that's obviously too
+complex.  Instead, you look at the page source and find the following text.  The
+rare characters are letters, so you filter them out and get the hidden word.
+
 """
 
 import webbrowser
