@@ -34,7 +34,7 @@ def main(currentNothing=94485):
 
     for _ in range(400):  # don't go on forever
         connection = urllib.request.urlopen(url % curr_nothing)
-        text = connection.readall().decode('utf8')
+        text = connection.read().decode('utf8')
         print(text)
         match = re.search(pattern, text)
         if match is not None:

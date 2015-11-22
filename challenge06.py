@@ -30,7 +30,7 @@ import re
 def main():
     url = 'http://www.pythonchallenge.com/pc/def/channel.zip'
     con = urlopen(url)
-    zf_bytes = con.readall()
+    zf_bytes = con.read()
     zf_file = BytesIO(zf_bytes)
     zf = ZipFile(zf_file, 'r')
     fn = '%d.txt'
