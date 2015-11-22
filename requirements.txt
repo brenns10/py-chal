@@ -1,2 +1,4 @@
 pypng
 matplotlib
+requests
+pillow
