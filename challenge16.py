@@ -3,6 +3,13 @@
 Solution to Python Challenge #16.
 
 Start: http://www.pythonchallenge.com/pc/return/mozart.html
+
+The picture is a "static-y" image, and if you examine it closely, you can see
+that each row of pixels contains a strip of magenta at some point. Since the
+title of the page says "let's get this straight", you assume that the rows of
+the picture need to be straightened out. The code below "rotates" each row so
+that the magenta occurs at the right hand side of the image. The static turns
+into a picture of the word "romance".
 """
 
 import webbrowser

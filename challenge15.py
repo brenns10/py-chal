@@ -1,6 +1,18 @@
 #!/usr/bin/env python3
 """
 Solution to Python Challenge #15.
+
+The calendar shows a January with two key features:
+1. The year is (probably) four digits, starting with 1 and ending with 6.
+2. The 26th is a Monday.
+
+There are also two comments in the page;
+1. he ain't the youngest, he is the second
+2. todo: buy flowers for tomorrow
+
+We find a list of dates that satisfy the conditions. We find the "second
+youngest" date in that list. And then we find the day after. I looked it up in
+Wikipedia and found out that Mozart was born on that day. So hey.
 """
 
 import webbrowser
