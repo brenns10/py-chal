@@ -2,6 +2,8 @@
 """
 Solution to Python Challenge #15.
 
+Start: http://www.pythonchallenge.com/pc/return/uzi.html
+
 The calendar shows a January with two key features:
 1. The year is (probably) four digits, starting with 1 and ending with 6.
 2. The 26th is a Monday.
